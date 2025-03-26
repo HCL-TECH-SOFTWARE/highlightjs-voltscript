@@ -1,0 +1,35 @@
+Option Public
+Option Declare
+UseVSE "*JsonVSE"
+
+Sub Initialize
+    Try
+        Dim parser As JSONParser 
+        Set parser = New JSONParser
+        Dim jobj As JSONObject
+        Dim arr As Variant
+        Dim i As Integer
+
+        parser.LoadFromFile("array.json")
+        Set jobj = parser.getrootobject
+
+        arr = jobj.GetChildren
+        For i = 0 To UBound(arr)
+            Dim values As Variant
+            Dim jo As JSONObject
+            Dim j As Integer
+            Set jo = arr(i)
+            values = jo.ValueArray
+            Print jo.label & ":"
+            For j = 0 To UBound(values)
+                Print values(j)
+            Next
+        Next
+
+    Catch
+        Print Space(2) + "Caught ERROR " & Error() & " at line " & Erl
+        Exit Sub
+    End Try
+
+    Return
+End Sub

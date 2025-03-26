@@ -1,0 +1,29 @@
+{
+    "name": "highlightjs-voltscript",
+    "version": "1.0.0",
+    "description": "VoltScript language grammar for highlight.js",
+    "main": "src/languages/voltscript.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FIXME/highlightjs-voltscript.git"
+    },
+    "keywords": [
+      "hljs",
+      "highlightjs",
+      "voltscript",
+      "lotusscript",
+      "basic"
+    ],
+    "author": "Chester Moses",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/FIXME/highlightjs-voltscript/issues"
+    },
+    "homepage": "https://github.com/FIXME/highlightjs-voltscript#readme"
+}
