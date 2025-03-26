@@ -11,7 +11,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/FIXME/highlightjs-voltscript.git"
+      "url": "git+https://github.com/HCL-TECH-SOFTWARE/highlightjs-voltscript.git"
     },
     "keywords": [
       "hljs",
@@ -20,10 +20,10 @@
       "lotusscript",
       "basic"
     ],
-    "author": "Chester Moses",
+    "author": "Chester Moses <chester.moses@hcl-software.com>",
     "license": "Apache-2.0",
     "bugs": {
-      "url": "https://github.com/FIXME/highlightjs-voltscript/issues"
+      "url": "https://github.com/HCL-TECH-SOFTWARE/highlightjs-voltscript/issues"
     },
-    "homepage": "https://github.com/FIXME/highlightjs-voltscript#readme"
+    "homepage": "https://github.com/HCL-TECH-SOFTWARE/highlightjs-voltscript#readme"
 }
