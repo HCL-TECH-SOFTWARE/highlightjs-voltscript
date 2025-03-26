@@ -395,7 +395,7 @@ export default function(hljs) {
     name: 'VoltScript',
     // not be auto-detected to avoid conflict with VBScript
     disableAutodetect: true,
-    aliases: [ 'vss' ],
+    aliases: [ 'voltscript', 'vss', 'lotusscript', 'lss' ],
     case_insensitive: true,
     keywords: {
       keyword: KEYWORDS.concat(tagwords, genKeywords),

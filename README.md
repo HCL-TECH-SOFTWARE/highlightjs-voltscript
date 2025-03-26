@@ -45,4 +45,4 @@ Chester Moses <chester-moses@hcl-software.com>
 - The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
 - Learn more about VoltScript: <https://help.hcl-software.com/docs/voltscript/early-access/index.html>
 
-[1]: https://github.com/highlightjs/highlightjs-voltscript/blob/master/LICENSE
+[1]: https://github.com/HCL-TECH-SOFTWARE/highlightjs-voltscript/blob/master/LICENSE.md
